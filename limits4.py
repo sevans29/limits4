@@ -46,7 +46,7 @@ class ProductNode:
 # Sample Transaction File (in-memory)
 transactions = [
     {"path": ["Level 1", "Product 1", "Product 1A"], "amount": 1_000, "tenor": 10},
-    # {"path": ["Level 1", "Product 1", "Product 1A"], "amount": 500_000, "tenor": 10},
+    {"path": ["Level 1", "Product 1", "Product 1A"], "amount": 500_000, "tenor": 10},
     {"path": ["Level 1", "Product 1", "Product 1B"], "amount": 200_000, "tenor": 11},
     {"path": ["Level 1", "Product 1", "Product 1C"], "amount": 225_000, "tenor": 18},
     {"path": ["Level 1", "Product 2", "Product 2A"], "amount": 200_000, "tenor": 6},
